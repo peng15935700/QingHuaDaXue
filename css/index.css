@@ -629,27 +629,120 @@
 }
 .footer{
 	position: relative;
-	height: 765px;
+	height: 700px;
 	width: 1800px;
 	background: url(../images/footer.jpg);
 }
-.footer-tu ul{
-	width: 1800px;
+.footer-tu .pailie{
+	position: absolute;
+	width: 1750px;
 	height: 245px;
-	padding-left: 50px;
+	margin-left: 50px;
 	padding-top: 100px;
 	float: left;
 }
-.footer-tu ul li{
+.footer-tu .pailie li{
 	width: 400px;
 	height: 245px;
-	
 	float: left;
 	
 }
-.footer-tu ul li img{
+.footer-tu .pailie li img{
 	width: 350px;
 	height: 205px;
 	position: absolute;
 	
+}
+.kuang{
+	width: 300px;
+	height: 205px;
+	border-left: 1px solid white;
+	overflow: hidden;
+}
+.footer-tu .pailie li h3{
+	width: 250px;
+	height: 40px;
+	padding-left: 50px;
+	color: white;
+}
+.duilie{
+	width: 300px;
+	height: 205px;
+	line-height: 40px;
+}
+.duilie a{
+	float: left;
+	color: white;
+	height: 20px;
+	width: 80px;
+	margin-top: 20px;
+	
+	padding-left: 50px;
+}
+.footer-jiao{
+	position: absolute;
+	width: 1800px;
+	height: 200px;
+	background: rgba(0, 0, 0, 0.5);
+	padding: 50px 0 30px 0;
+	top: 420px;
+}
+.footer-jiao img{
+	padding-left:100px ;
+}
+.footer-jiao a{
+	position: absolute;
+	padding-left: 80px;
+	color: white;
+}
+.footer-jiao p{
+	position: absolute;
+	padding-left: 360px;
+	top: 80px;
+	color: white;
+}
+.beb{
+	position: absolute;
+	float: right;
+	width: 120px;
+	height: 40px;
+	border: 1px solid white;
+	background: gray;
+	right: 50px;
+	top: 50px;
+}
+.beb:hover{
+	 opacity: 0.5;  
+}
+.beb a{
+	
+	color: white;
+	padding: 8px 30px 8px 30px;
+}
+.footer-dibu{
+	width: 1700px;
+	height: 90px;
+	border-top: 1px solid white;
+	margin-left: 50px;
+	margin-top: 50px;
+}
+.footer-dibu .ab{
+	position: absolute;
+	color: whitesmoke;
+	opacity: 0.7;
+	top: 200px;
+}
+.footer-dibu .old{
+	position: absolute;
+	color: whitesmoke;
+	opacity: 0.7;
+	top: 200px;
+	left: -100px;
+}
+.footer-dibu .new{
+	position: absolute;
+	color: whitesmoke;
+	opacity: 0.7;
+	top: 200px;
+	left: 500px;
 }
