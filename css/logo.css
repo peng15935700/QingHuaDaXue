@@ -111,7 +111,13 @@ body{
 	margin-left: 15px;
 	margin-top: 10px;
 }
-
+.topfooter ul li a{
+	text-decoration:none;
+}
+.topfooter ul li a:hover{
+	background: #5c307d;
+	color: white;
+}
 .topfooter ul .duan{
 	float: left;
 	height: 20px;

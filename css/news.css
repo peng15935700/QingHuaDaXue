@@ -109,6 +109,16 @@
     color: #fff;
     font-size: 15px;
 }
+.headerfooter .nav li h3 a{
+	display: block;
+    padding: 0 12px;
+    line-height: 60px;
+    width: 84px;
+    height: 60px;
+    color: #fff;
+    font-size: 15px;
+    text-decoration:none;
+}
 .content{
 	width: 1523.2px;
 	height: 2809px;
@@ -280,6 +290,10 @@
     text-align: center;
     cursor: pointer;
     padding: 0;
+}
+.colum1 .colum1-li{
+	width: 420px;
+    height: 56px;
 }
 .colum1 .colum1-li .curr{
 	background: white;

@@ -33,7 +33,7 @@
 				<div class="headerwhith">
 				<ul class="nav">
 					<li class="small">
-						<h3>首页</h3>
+						<h3><a href="index.html">首页</a></h3>
 					</li>
 					<li>
 						<h3>头条新闻</h3>
@@ -304,8 +304,8 @@
 				<div class="news-table">
 					<div class="colum1">
 						<ul class="colum1-li">
-							<li class="nv curr" id="date">视频速递</li>
-							<li class="nv" id="date1">我是拍客</li>
+							<li class="nv curr">视频速递</li>
+							<li class="nv" >我是拍客</li>
 						</ul>
 						<div class="vdwrap" id="vdwrap" style="display: block;">
 						    <div class="vdwrapbox">
@@ -663,18 +663,15 @@ Copyright 2001-2020 news.tsinghua.edu.cn. All rights reserved.
 		
 		
 		//视频速递 我是拍客
-		$("#date a").mouseover(function(){
-			alert(1);
+		$(".colum1-li li").mouseover(function() {
+		$(".nv").removeClass("curr");
+		$(this).addClass("curr");
+		var index = $(".colum1-li li").index($(this));
+		$(".vdwrap").css("display", "none");
+		$(".vdwrap:eq("+ index +")").css("display", "block");
+		
 	})
 		
-//		$(".colum1-li #s").mouseover(function(){
-//		$(".colum1-li #k").removeClass("curr");
-//		$(this).addClass("curr");
-//		var index = $(".colum1-li #s").index($(this));
-//		$("#vdwrap1").css("display", "none");
-//		$("#vdwrap:eq("+ index +")").css("display", "block");
-//
-//	})
 	</script>
 		
 </html>
